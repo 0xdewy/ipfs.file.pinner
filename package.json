@@ -1,0 +1,17 @@
+{
+  "name": "ipfs-server",
+  "version": "1.0.0",
+  "description": "Pin images from smart contract events",
+  "main": "index.js",
+  "author": "kyle dewhurst",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "ipfs": "^0.34.0",
+    "nodemon": "^1.19.0",
+    "web3": "^1.0.0-beta.34"
+  }
+}

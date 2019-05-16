@@ -1,0 +1,48 @@
+Arguments: 
+  /home/dao/.nvm/versions/node/v10.15.1/bin/node /home/dao/.nvm/versions/node/v10.15.1/bin/yarn
+
+PATH: 
+  /home/dao/.nvm/versions/node/v10.15.1/bin:/home/dao/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/emscripten:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dao/.yarn/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/dao/code/inui/ipfs.pinner/package.json: Unexpected token } in JSON at position 388
+      at JSON.parse (<anonymous>)
+      at /home/dao/.nvm/versions/node/v10.15.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/dao/.nvm/versions/node/v10.15.1/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /home/dao/.nvm/versions/node/v10.15.1/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "ipfs-server",
+    "version": "1.0.0",
+    "description": "Pin images from smart contract events",
+    "main": "index.js",
+    "author": "kyle dewhurst",
+    "license": "MIT",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "dotenv": "^7.0.0",
+      "ipfs": "^0.34.0",
+      "web3": "^1.0.0-beta.34"
+    },
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
